@@ -1,1 +1,6 @@
-// 当前模板暂时无需复杂 JS，可用于交互动画或表单验证
+const hamburger = document.querySelector(".hamburger");
+const nav = document.querySelector("nav");
+
+hamburger.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
