@@ -2,9 +2,11 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -19,22 +21,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Checkout 源码
       - name: Checkout
         uses: actions/checkout@v4
-        
+
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          
+          node-version: "18"
+
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
-        
+
+      # 4️⃣ Build 项目
       - name: Build
         run: npm run build
-        
+
+      # 5️⃣ 上传 Pages artifact
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3   # ✅ 升级到 v3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
@@ -45,6 +52,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # 6️⃣ 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4   # ✅ 升级到 v4
+        uses: actions/deploy-pages@v4
