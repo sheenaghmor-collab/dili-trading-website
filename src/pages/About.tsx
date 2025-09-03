@@ -44,15 +44,15 @@ export function About() {
                 Pioneering Excellence in Drone Innovation
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed">
-                Since our establishment in 2024, DILI TRADING SDN. BHD. has rapidly emerged 
-                as a global leader in comprehensive drone solutions, combining technological 
+                Since our establishment in 2024, DILI TRADING SDN. BHD. has rapidly emerged
+                as a global leader in comprehensive drone solutions, combining technological
                 expertise with unwavering commitment to client success.
               </p>
             </div>
             <div className="relative">
-              <img 
-                src="/images/global_business_network_world_map_presence.jpg" 
-                alt="Global Business Network" 
+              <img
+                src="/images/global_business_network_world_map_presence.jpg"
+                alt="Global Business Network"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
@@ -70,22 +70,22 @@ export function About() {
               </div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h2>
               <p className="text-gray-600 leading-relaxed">
-                To revolutionize industries through innovative drone solutions, delivering exceptional 
-                value to clients while advancing the boundaries of what's possible in unmanned aerial 
-                technology. We strive to make drone technology accessible, reliable, and transformative 
+                To revolutionize industries through innovative drone solutions, delivering exceptional
+                value to clients while advancing the boundaries of what's possible in unmanned aerial
+                technology. We strive to make drone technology accessible, reliable, and transformative
                 for businesses worldwide.
               </p>
             </div>
-            
+
             <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8">
               <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
                 <Award className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h2>
               <p className="text-gray-600 leading-relaxed">
-                To be the world's most trusted partner for drone solutions, leading the industry 
-                in innovation, safety, and customer satisfaction. We envision a future where drone 
-                technology seamlessly integrates into daily operations, enhancing efficiency and 
+                To be the world's most trusted partner for drone solutions, leading the industry
+                in innovation, safety, and customer satisfaction. We envision a future where drone
+                technology seamlessly integrates into daily operations, enhancing efficiency and
                 opening new possibilities across all sectors.
               </p>
             </div>
@@ -101,7 +101,7 @@ export function About() {
               Our Core Business Areas
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              DILI TRADING SDN. BHD. specializes in three comprehensive business segments that define 
+              DILI TRADING SDN. BHD. specializes in three comprehensive business segments that define
               the future of drone technology and applications.
             </p>
           </div>
@@ -119,7 +119,7 @@ export function About() {
                   Drone Sales & Distribution
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  We provide comprehensive drone solutions across multiple market segments, from advanced 
+                  We provide comprehensive drone solutions across multiple market segments, from advanced
                   commercial platforms to user-friendly consumer models.
                 </p>
                 <div className="space-y-3">
@@ -128,19 +128,19 @@ export function About() {
                     <span className="text-gray-700 font-medium">Commercial Drones</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">Professional-grade UAVs for surveying, mapping, inspection, and specialized industrial applications.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Consumer Drones</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">High-performance recreational drones with advanced camera systems and intuitive controls.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Industrial Applications</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">Specialized solutions for agriculture, construction, logistics, and emergency response sectors.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Technical Support & Maintenance</span>
@@ -149,9 +149,9 @@ export function About() {
                 </div>
               </div>
               <div className="relative">
-                <img 
-                  src="/images/commercial_drone_EVO_Max_4N_business_technology_hero.jpg" 
-                  alt="Drone Sales & Distribution" 
+                <img
+                  src="/images/commercial.jpg"
+                  alt="Drone Sales & Distribution"
                   className="rounded-2xl shadow-2xl"
                 />
               </div>
@@ -160,9 +160,9 @@ export function About() {
             {/* Professional Drone Performances */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <img 
-                  src="/images/professional-drone-light-show-astronaut-american-flag-stadium-night.jpg" 
-                  alt="Professional Drone Performances" 
+                <img
+                  src="/images/professional-drone-light-show-astronaut-american-flag-stadium-night.jpg"
+                  alt="Professional Drone Performances"
                   className="rounded-2xl shadow-2xl"
                 />
               </div>
@@ -176,7 +176,7 @@ export function About() {
                   Professional Drone Performances
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Transform events into unforgettable experiences with our spectacular synchronized 
+                  Transform events into unforgettable experiences with our spectacular synchronized
                   drone performances that combine cutting-edge technology with artistic vision.
                 </p>
                 <div className="space-y-3">
@@ -185,19 +185,19 @@ export function About() {
                     <span className="text-gray-700 font-medium">Light Shows & Formations</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">Spectacular synchronized LED displays creating dynamic patterns, logos, and storytelling in the night sky.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Event Entertainment</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">Custom performances for concerts, festivals, product launches, and special celebrations worldwide.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Corporate Events</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">Professional brand activations and presentations that create lasting impressions for corporate clients.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Cultural Celebrations</span>
@@ -219,7 +219,7 @@ export function About() {
                   Drone Information Services
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Navigate the complex world of drone technology with confidence through our comprehensive 
+                  Navigate the complex world of drone technology with confidence through our comprehensive
                   information services and expert guidance tailored to your specific needs.
                 </p>
                 <div className="space-y-3">
@@ -228,19 +228,19 @@ export function About() {
                     <span className="text-gray-700 font-medium">Drone Consulting</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">Strategic advice on drone implementation, fleet management, operational optimization, and ROI maximization.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Technical Training</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">Comprehensive pilot certification programs, maintenance training, and skill development courses for all levels.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Industry Insights</span>
                   </div>
                   <p className="text-gray-600 text-sm ml-5">Market analysis, technology trends, competitive intelligence, and strategic planning support services.</p>
-                  
+
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-700 font-medium">Regulatory Guidance</span>
@@ -249,9 +249,9 @@ export function About() {
                 </div>
               </div>
               <div className="relative">
-                <img 
-                  src="/images/professional_drone_maintenance_technician.jpg" 
-                  alt="Information Services" 
+                <img
+                  src="/images/professional_drone_maintenance_technician.jpg"
+                  alt="Information Services"
                   className="rounded-2xl shadow-2xl"
                 />
               </div>
@@ -268,7 +268,7 @@ export function About() {
               Our Core Values
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              These fundamental principles guide every decision we make and define our commitment 
+              These fundamental principles guide every decision we make and define our commitment
               to excellence in all aspects of our business.
             </p>
           </div>
@@ -300,16 +300,16 @@ export function About() {
                 Global Team, Local Expertise
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Our diverse team of 100+ professionals spans continents, bringing together 
-                decades of experience in aerospace engineering, software development, 
+                Our diverse team of 100+ professionals spans continents, bringing together
+                decades of experience in aerospace engineering, software development,
                 regulatory compliance, and creative performance design.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                This global distribution allows us to provide localized support while 
-                maintaining consistent quality standards and leveraging international 
+                This global distribution allows us to provide localized support while
+                maintaining consistent quality standards and leveraging international
                 best practices across all markets.
               </p>
-              
+
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600">100+</div>
@@ -330,9 +330,9 @@ export function About() {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="/images/modern-business-team-meeting-corporate-office-collaboration.jpg" 
-                alt="Professional Team Meeting" 
+              <img
+                src="/images/modern-business-team-meeting-corporate-office-collaboration.jpg"
+                alt="Professional Team Meeting"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
@@ -348,7 +348,7 @@ export function About() {
               Industry Recognition & Achievements
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our commitment to excellence has earned recognition from industry leaders 
+              Our commitment to excellence has earned recognition from industry leaders
               and regulatory bodies worldwide.
             </p>
           </div>
@@ -372,7 +372,7 @@ export function About() {
               Why Choose DILI TRADING SDN. BHD.?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-              We don't just provide drone solutions – we deliver partnerships that drive success, 
+              We don't just provide drone solutions – we deliver partnerships that drive success,
               innovation that creates opportunities, and expertise that ensures your goals are achieved.
             </p>
           </div>
@@ -385,29 +385,29 @@ export function About() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Proven Excellence</h3>
                 <p className="text-blue-100">
-                  Industry-leading track record with consistent delivery of exceptional results 
+                  Industry-leading track record with consistent delivery of exceptional results
                   and unmatched client satisfaction.
                 </p>
               </div>
-              
+
               <div className="text-center">
                 <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Globe className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Global Scale</h3>
                 <p className="text-blue-100">
-                  International presence combined with local expertise ensures seamless 
+                  International presence combined with local expertise ensures seamless
                   service delivery regardless of project location.
                 </p>
               </div>
-              
+
               <div className="text-center">
                 <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Complete Security</h3>
                 <p className="text-blue-100">
-                  Comprehensive insurance coverage, regulatory compliance, and safety protocols 
+                  Comprehensive insurance coverage, regulatory compliance, and safety protocols
                   provide peace of mind for every engagement.
                 </p>
               </div>

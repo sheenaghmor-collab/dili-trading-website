@@ -1,4 +1,5 @@
 import { Plane, Lightbulb, Users, Settings, Target, Shield } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export function Services() {
   return (
@@ -10,7 +11,7 @@ export function Services() {
             Comprehensive Drone Solutions
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            From cutting-edge sales to spectacular performances and expert consulting, 
+            From cutting-edge sales to spectacular performances and expert consulting,
             we deliver complete drone solutions tailored to your needs.
           </p>
         </div>
@@ -30,11 +31,11 @@ export function Services() {
                 </h2>
               </div>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                We offer a comprehensive range of professional-grade drones designed to meet 
-                diverse industry requirements. From commercial applications to consumer needs, 
+                We offer a comprehensive range of professional-grade drones designed to meet
+                diverse industry requirements. From commercial applications to consumer needs,
                 our carefully curated selection ensures optimal performance and reliability.
               </p>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Target className="w-6 h-6 text-blue-600 mt-1" />
@@ -60,9 +61,9 @@ export function Services() {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="/images/commercial_drone_EVO_Max_4N_business_technology_hero.jpg" 
-                alt="Commercial Drone Sales" 
+              <img
+                src="/images/commercial.jpg"
+                alt="Commercial Drone Sales"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
@@ -75,9 +76,9 @@ export function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <img 
-                src="/images/professional-drone-light-show-astronaut-american-flag-stadium-night.jpg" 
-                alt="Professional Drone Light Show" 
+              <img
+                src="/images/professional-drone-light-show-astronaut-american-flag-stadium-night.jpg"
+                alt="Professional Drone Light Show"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
@@ -91,11 +92,11 @@ export function Services() {
                 </h2>
               </div>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Transform your events with breathtaking aerial displays that captivate audiences 
-                and create unforgettable experiences. Our synchronized drone performances combine 
+                Transform your events with breathtaking aerial displays that captivate audiences
+                and create unforgettable experiences. Our synchronized drone performances combine
                 cutting-edge technology with artistic vision.
               </p>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Lightbulb className="w-6 h-6 text-blue-600 mt-1" />
@@ -138,11 +139,11 @@ export function Services() {
                 </h2>
               </div>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Navigate the complex world of drone technology with confidence. Our expert team 
-                provides comprehensive guidance, training, and insights to help you make informed 
+                Navigate the complex world of drone technology with confidence. Our expert team
+                provides comprehensive guidance, training, and insights to help you make informed
                 decisions and achieve optimal results.
               </p>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Users className="w-6 h-6 text-blue-600 mt-1" />
@@ -168,9 +169,9 @@ export function Services() {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="/images/professional_drone_maintenance_technician.jpg" 
-                alt="Drone Information Services" 
+              <img
+                src="/images/professional_drone_maintenance_technician.jpg"
+                alt="Drone Information Services"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
@@ -185,15 +186,15 @@ export function Services() {
             Ready to Explore Our Services?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Contact our experts today to discuss your specific drone requirements and discover 
+            Contact our experts today to discuss your specific drone requirements and discover
             the perfect solution for your business.
           </p>
-          <a 
-            href="/contact" 
+          <Link
+            to="/contact"
             className="inline-flex items-center px-8 py-4 bg-white text-blue-800 font-semibold rounded-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-xl"
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
       </section>
     </div>

@@ -15,11 +15,11 @@ export function Footer() {
               <span className="text-xl font-semibold">DILI TRADING SDN. BHD.</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Leading drone solutions provider specializing in sales, performances, and information services. 
+              Leading drone solutions provider specializing in sales, performances, and information services.
               Established in 2024 with 100+ employees globally distributed.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              {/* <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Linkedin size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
@@ -27,7 +27,7 @@ export function Footer() {
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Facebook size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -70,9 +70,9 @@ export function Footer() {
                     JALAN SS 6/3，KELANA JAYA,<br />
                     PETALING JAYA SELANGOR
                   </span>
-                  <a 
-                    href="https://www.google.com/maps?q=NO.16-8+INFINITY+TOWER,JALAN+SS+6/3,KELANA+JAYA,PETALING+JAYA+SELANGOR,Malaysia" 
-                    target="_blank" 
+                  <a
+                    href="https://www.google.com/maps?q=NO.16-8+INFINITY+TOWER,JALAN+SS+6/3,KELANA+JAYA,PETALING+JAYA+SELANGOR,Malaysia"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-400 hover:text-blue-300 text-xs mt-1 transition-colors duration-200"
                   >
@@ -87,7 +87,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-blue-400" />
-                <span className="text-gray-300">bussies@dilitrade.com</span>
+                <span className="text-gray-300">business@dilitrade.com</span>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ export function Contact() {
             Get In Touch
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Ready to explore innovative drone solutions? Our global team is here to help you 
+            Ready to explore innovative drone solutions? Our global team is here to help you
             achieve your goals with cutting-edge technology and expert guidance.
           </p>
         </div>
@@ -26,8 +26,8 @@ export function Contact() {
                 Contact Information
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                We're committed to providing exceptional service and support. Reach out to us through 
-                any of the following channels, and our team will respond promptly to discuss your 
+                We're committed to providing exceptional service and support. Reach out to us through
+                any of the following channels, and our team will respond promptly to discuss your
                 specific requirements.
               </p>
 
@@ -45,9 +45,9 @@ export function Contact() {
                       PETALING JAYA SELANGOR<br />
                       Malaysia
                     </p>
-                    <a 
-                      href="https://www.google.com/maps?q=NO.16-8+INFINITY+TOWER,JALAN+SS+6/3,KELANA+JAYA,PETALING+JAYA+SELANGOR,Malaysia" 
-                      target="_blank" 
+                    <a
+                      href="https://www.google.com/maps?q=NO.16-8+INFINITY+TOWER,JALAN+SS+6/3,KELANA+JAYA,PETALING+JAYA+SELANGOR,Malaysia"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200"
                     >
@@ -81,8 +81,8 @@ export function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:bussies@dilitrade.com" className="hover:text-blue-600 transition-colors">
-                        bussies@dilitrade.com
+                      <a href="mailto:business@dilitrade.com" className="hover:text-blue-600 transition-colors">
+                        business@dilitrade.com
                       </a>
                     </p>
                     <p className="text-sm text-gray-500 mt-1">General inquiries and support</p>
@@ -111,26 +111,26 @@ export function Contact() {
               {/* Social Media */}
               <div className="mt-12">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
-                <div className="flex space-x-4">
-                  <a 
-                    href="#" 
+                {/* <div className="flex space-x-4">
+                  <a
+                    href="#"
                     className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors duration-300"
                   >
                     <Linkedin size={20} />
                   </a>
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors duration-300"
                   >
                     <Twitter size={20} />
                   </a>
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors duration-300"
                   >
                     <Facebook size={20} />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -142,9 +142,9 @@ export function Contact() {
               <div className="bg-gray-200 rounded-2xl h-96 flex items-center justify-center relative overflow-hidden">
                 {/* Placeholder for Google Map */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-50">
-                  <img 
-                    src="/images/Modern_Technology_Operations_Center_Office.jpg" 
-                    alt="Office Location" 
+                  <img
+                    src="/images/Modern_Technology_Operations_Center_Office.jpg"
+                    alt="Office Location"
                     className="w-full h-full object-cover opacity-30"
                   />
                 </div>
@@ -161,12 +161,12 @@ export function Contact() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="mt-6 p-6 bg-blue-50 rounded-xl">
                 <h4 className="font-semibold text-gray-900 mb-2">Getting Here</h4>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Our office is conveniently located in the heart of Kelana Jaya, easily accessible 
-                  by public transportation and major highways. The Infinity Tower offers modern 
+                  Our office is conveniently located in the heart of Kelana Jaya, easily accessible
+                  by public transportation and major highways. The Infinity Tower offers modern
                   facilities and ample parking for visitors.
                 </p>
               </div>
@@ -182,10 +182,10 @@ export function Contact() {
             Let's Start Your Drone Journey
           </h2>
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-            Whether you're looking for cutting-edge drone solutions, spectacular performances, 
+            Whether you're looking for cutting-edge drone solutions, spectacular performances,
             or expert consulting, our team is ready to help you achieve extraordinary results.
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
               <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -194,7 +194,7 @@ export function Contact() {
               <h3 className="text-lg font-semibold mb-2">Call Us</h3>
               <p className="text-blue-100">Quick response for urgent inquiries</p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-8 h-8 text-white" />
@@ -202,7 +202,7 @@ export function Contact() {
               <h3 className="text-lg font-semibold mb-2">Email Us</h3>
               <p className="text-blue-100">Detailed project discussions</p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-8 h-8 text-white" />

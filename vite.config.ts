@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   // base: '/dili-trading-website/', // 替换为您的GitHub仓库名
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     assetsDir: 'assets'
   },
   resolve: {
