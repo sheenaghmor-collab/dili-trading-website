@@ -109,9 +109,9 @@ export function Contact() {
               </div>
 
               {/* Social Media */}
-              <div className="mt-12">
+              {/* <div className="mt-12">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
-                {/* <div className="flex space-x-4">
+                <div className="flex space-x-4">
                   <a
                     href="#"
                     className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors duration-300"
@@ -130,8 +130,8 @@ export function Contact() {
                   >
                     <Facebook size={20} />
                   </a>
-                </div> */}
-              </div>
+                </div>
+              </div> */}
             </div>
 
             {/* Map Section */}
